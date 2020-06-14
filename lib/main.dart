@@ -38,16 +38,18 @@ class _HomeState extends State<Home> {
             Text(
               'Currently in Metro Manila',
               style: TextStyle(
-                fontSize: 10.0,
-                fontWeight: FontWeight.w600,
+                fontFamily: 'DMSans',
+                fontSize: 12.0,
                 letterSpacing: 2.0,
               ),
             ),
+            SizedBox(height: 6.0),
             Text(
               '31\u00B0',
               style: TextStyle(
+                fontFamily: 'DMSans',
                 fontSize: 60.0,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w800,
               ),
             ),
           ],
